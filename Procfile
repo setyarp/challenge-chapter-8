@@ -1,2 +1,1 @@
-web: npm start
-release: npm run db:seed
+web: npx sequelize db:migrate:all && npx sequelize db:seed:all
